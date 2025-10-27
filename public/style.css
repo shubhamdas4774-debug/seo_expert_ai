@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e1f29, #2b2d42);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  background: #26273b;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffd166;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+  color: #adb5bd;
+  margin-bottom: 15px;
+}
+
+.chat-box {
+  background: #1b1c2c;
+  height: 380px;
+  border-radius: 12px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px;
+}
+
+.msg {
+  padding: 10px 15px;
+  border-radius: 15px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user {
+  align-self: flex-end;
+  background: #4cc9f0;
+  border-bottom-right-radius: 2px;
+}
+
+.bot {
+  align-self: flex-start;
+  background: #3a0ca3;
+  border-bottom-left-radius: 2px;
+}
+
+.input-area {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+}
+
+button {
+  background: #ffd166;
+  color: #222;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #fca311;
+}
