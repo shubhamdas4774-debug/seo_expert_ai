@@ -42,7 +42,7 @@ const a4fClient = new OpenAI({
   baseURL: a4f_base_url,
 });
 const response = await a4fClient.chat.completions.create({
-    model: "provider-6/llama-3.2-3b-instruct",
+    model: "provider-3/llama-3.2-3b",
     messages: [
       { role: "system", content: "You are a helpful assistant for SEO, YouTube and social media content ideas." },
       { role: "user", content: message },
